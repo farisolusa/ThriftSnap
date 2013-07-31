@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'ThriftSnap' target in the 'ThriftSnap' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+  #import <CoreData/CoreData.h>
+
+#define FacebookAPIKey @"100957206668993"
+#define kOAuthConsumerKey @"n43SPbSAIDOAE0OwsDl6w"
+#define kOAuthConsumerSecret @"Odw1bsG0XDyHyPeOrEzTpbLMgArUMnpbtGTUoFA"
+
+#endif
